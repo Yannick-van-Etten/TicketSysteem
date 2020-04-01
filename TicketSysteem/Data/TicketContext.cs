@@ -5,7 +5,6 @@ namespace TicketSysteem.Models
     public class TicketContext : DbContext
     {
 
-        /// <param name="options">De opties, zoals database connection</param>
         public TicketContext(DbContextOptions options) : base(options)
         {
         }
